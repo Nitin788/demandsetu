@@ -187,9 +187,6 @@ class PlaceController extends Controller
         // Redirect to the places list page with a success message
         return redirect()->route('places.index')->with('success', 'Place updated successfully!');
     }
-
-
-
     /**
      * Remove the specified resource from storage.
      */
